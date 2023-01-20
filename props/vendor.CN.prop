@@ -1,0 +1,21 @@
+#
+# CN variant specific props
+#
+ro.boot.product.hardware.sku=nfc
+ro.build.product=munch
+ro.product.brand=Redmi
+ro.product.board=munch
+ro.product.marketname=Redmi K40s
+ro.product.device=munch
+ro.product.model=22021211RC
+ro.product.name=munch
+ro.product.vendor.brand=Redmi
+ro.product.vendor.device=munch
+ro.product.vendor.model=22021211RC
+ro.product.vendor.name=munch
+ro.product.bootimage.device=munch
+ro.product.bootimage.name=munch
+ro.product.bootimage.brand=Redmi
+ro.product.bootimage.marketname=Redmi K40s
+ro.product.bootimage.model=22021211RC
+ro.vendor.build.fingerprint=Redmi/munch/munch:13/RKQ1.211001.001/V14.0.3.0.TLMMIXM:user/release-keys

@@ -1,0 +1,9 @@
+#
+# CN variant specific props
+#
+ro.product.system_ext.device=munch
+ro.product.system_ext.brand=POCO
+ro.product.system_ext.marketname=POCO F4
+ro.product.system_ext.model=22021211RG
+ro.product.system_ext.name=munch
+ro.system_ext.build.fingerprint=POCO/munch_global/munch:13/RKQ1.211001.001/V14.0.3.0.TLMMIXM:user/release-keys
