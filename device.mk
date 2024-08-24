@@ -7,6 +7,10 @@
 # A/B
 TARGET_IS_VAB := true
 
+# FUSE Passthrough
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
