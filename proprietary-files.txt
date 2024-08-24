@@ -1,4 +1,5 @@
-# Device proprietary files - from munch MIUI V14.0.3.0.TLMMIXM package, unless pinned
+# Device proprietary files - from munch_global-user 14 UKQ1.231207.002 V816.0.2.0.ULMMIXM release-keys unless pinned
+
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -10,10 +11,9 @@ vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
+vendor/lib/libacdbloader.so
 
 # ADSP-Modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
 vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
