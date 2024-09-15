@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     MunchFrameworksRes \
+    MunchNFCOverlay \
     MunchSettingsOverlay \
     MunchSystemUIOverlay
 
@@ -55,14 +56,6 @@ PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Variant Properties
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,odm.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_ODM)) \
-    $(call find-copy-subdir-files,product.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_PRODUCT)) \
-    $(call find-copy-subdir-files,system.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_SYSTEM)) \
-    $(call find-copy-subdir-files,system_ext.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_SYSTEM_EXT)) \
-    $(call find-copy-subdir-files,vendor.*.prop,$(LOCAL_PATH)/props/,$(TARGET_COPY_OUT_VENDOR))
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)

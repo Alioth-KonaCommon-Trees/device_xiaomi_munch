@@ -1,9 +1,0 @@
-// Copyright (C) 2023 StatiXOS
-// SPDX-License-Identifer: Apache-2.0
-
-runtime_resource_overlay {
-    name: "MunchNFCOverlay",
-    sdk_version: "current",
-    vendor: true,
-}
-
